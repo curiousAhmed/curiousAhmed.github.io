@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friday</title>
+  <link rel="stylesheet" href="ucpagecss.css">
+ 
+</head>
+
+<body>
+  <div class="bg-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 countdown-container">
+          <h1>Sorry. Magic is still Happening &smile;</h1>
+          <p>But don’t worry, we’ll be available in the blink of an eye <br> to help you get YOUR DREAM JOB.</p>
+          <div class="countdown-timer" id="countdown">
+            <div class="circle day-circle">0d</div>
+            <div class="circle hour-circle">0h</div>
+            <div class="circle minute-circle">0m</div>
+            <div class="circle second-circle">0s</div>
+          </div>
+          <p>Forget about the countdown, click on this button, fill the form<br> and we'll let you know when everything is ready.</p>
+          <!-- Replace the form with a button that points to another webpage -->
+          <!-- Remove the form -->
+          <div class="subscribe-form" id="subscribeForm">
+            <button class="custom-button" onclick="redirectToAnotherPage()">Lets Go !!</button>
+          </div>
+
+    
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Custom Popup -->
+  <div class="custom-popup" id="customPopup">
+    <div class="popup-content">
+      <span class="close-button" onclick="closePopup()">&times;</span>
+      <p id="popupMessage"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    function redirectToAnotherPage() {
+    // Replace "https://example.com" with the URL of the webpage you want to redirect to
+    window.location.href = "https://forms.gle/h1aRB8ksUTsZnpBTA";
+    }
+  </script>
+
+</body>
+
+</html>
