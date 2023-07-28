@@ -4,6 +4,12 @@ html {
   margin: 0; /* Remove default margin */
   overflow: hidden; /* Hide scrollbar */
 }
+.logo-container {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+}
 
 .bg-image {
   background-image: url('bg_img.jpg');
