@@ -26,6 +26,7 @@ html {
   border-radius: 8px;
   padding: 20px;
   text-align: center;
+  transform: scale(0.824);
 }
 
 .countdown-timer {
