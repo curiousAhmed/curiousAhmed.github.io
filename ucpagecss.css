@@ -153,11 +153,4 @@ p {
 }
 
 /* Add CSS for the social media icons */
-.social-media-icon {
-  max-width: 30px;
-  max-height:  30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
