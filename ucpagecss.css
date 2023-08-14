@@ -10,7 +10,12 @@ html {
   left: 15px;
   z-index: 1;
 }
-
+.social-media-icon {
+  font-size: 24px; /* Adjust the size as needed */
+  margin-right: 10px; /* Adjust spacing between icons */
+  color: #333; /* Adjust the icon color */
+  text-decoration: none;
+}
 .bg-image {
   background-image: url('bg_img.jpg');
   background-size: cover;
