@@ -8,21 +8,6 @@ html, body{
 overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px) {
-    .blog-posts {
-        padding: 20px;
-    }
-    .hero-title{
-        color: whitesmoke;
-    }
-    .subtitle{
-        padding-right: 10px;
-    }
-     .hero-body{
-        transform: scale(0.7);
-        padding: unset;
-    }
-}
 body {
 	font-family: 'PT Sans Caption',"Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-size: 3vh;
@@ -125,14 +110,46 @@ body{
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
 
+@media screen and (max-width: 768px ) {
 
     .blog-posts {
         padding: 20px;
     }
+    .hero-title{
+        font-size: 16vh;
+        color: whitesmoke;
+    }
+    .subtitle{
+        padding-right: 10px;
+    }
+
+    .hero-body{
+        transform: scale(0.7);
+	padding: unset;
+	margin-left: -5pc;
+	margin-top: -10pc;
+    }
 }
 
+@media screen and (max-width: 480px){
+    .hero-body{
+        transform: scale(0.5);
+        padding: unset;
+        margin-left: -5pc;
+        margin-top: -10pc;
+    }
+    .blog-posts {
+        padding: 16px;
+    }
+    .hero-title{
+        font-size: 14vh;
+        color: whitesmoke;
+    }
+    .subtitle{
+        padding-right: 10px;
+    }
+}
 
 /* ... Previous CSS code ... */
 
