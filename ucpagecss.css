@@ -17,7 +17,7 @@ html {
   text-decoration: none;
 }
 .bg-image {
-  background-image: url('bg_img.jpg');
+  background-image: url('herobg.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -111,7 +111,7 @@ p {
 .social-media-sidebar {
   position: fixed;
   bottom: 50px;
-  right: 10pc;
+  right: 8pc;
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
