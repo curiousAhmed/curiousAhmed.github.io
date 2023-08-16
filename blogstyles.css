@@ -13,12 +13,14 @@ overflow-x: hidden;
         padding: 20px;
     }
     .hero-title{
-        transform: scale(0.7);
-        margin-left: -65px;
         color: whitesmoke;
     }
     .subtitle{
         padding-right: 10px;
+    }
+     .hero-body{
+        transform: scale(0.7);
+        padding: unset;
     }
 }
 body {
